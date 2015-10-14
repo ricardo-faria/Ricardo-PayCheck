@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Avaliação Lab VI</title>
+</head>
+<body>
+   <section>
+       <form>
+       
+           <fieldset>
+              <h2>Salary Paycheck Calculator</h2>
+              <div>
+                   <label for="salary">Salary</label>
+                   <input type="number" id="salary"/>
+                   <input type="submit" id="calculate" value="Calculate">
+               </div>
+               
+               <div class="result">                                     
+                   <label  for="inss">INSS:</label>                                   
+                   <label  accesskey=""id="inss"></label>                 
+                </div>
+               
+               <div class="result">                 
+                   <label  for="irpf">IRPF:</label>                 
+                   <label  id="irpf"></label>                 
+               </div>
+               
+               <div class="result">
+                    <label   for="liquid" >Liquid Salary:</label>
+                     <label  id="liquid"></label>                    
+                </div>
+                
+           </fieldset>
+       </form>
+   </section>
+    
+   
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/payCheck.js"></script>
+    <script src="js/payCheckService.js"></script>
+</body>
+</html>
