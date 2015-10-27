@@ -1,6 +1,6 @@
 var payCheck = {
     init: function(){
-         $('#calculate').click(function(event){
+         $('#calculate').on('submit',function(event){
             event.preventDefault();
             payCheck.getSalary();
         });        
